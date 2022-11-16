@@ -2,7 +2,7 @@
 const { Builder, By, Key, until } = require('selenium-webdriver')
 const assert = require('assert')
 
-describe('izefjnz', function() {
+describe('inesstp', function() {
   let driver
   let vars
   beforeEach(async function() {
@@ -12,7 +12,7 @@ describe('izefjnz', function() {
   afterEach(async function() {
     await driver.quit();
   })
-  it('izefjnz', async function() {
+  it('inesstp', async function() {
     await driver.get("http://localhost:3000/")
     await driver.manage().window().setRect({ width: 716, height: 672 })
     await driver.findElement(By.css("input:nth-child(1)")).click()
